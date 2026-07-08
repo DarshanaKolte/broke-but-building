@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Broke But Building | AI Automation Studio</title>
+  <meta name="description" content="Broke But Building is an AI automation studio helping service businesses capture leads, automate follow-ups, book appointments, and reduce missed opportunities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Broke But Building home">
+      <span class="brand-mark">BBB</span>
+      <span>
+        <strong>Broke But Building</strong>
+        <small>AI Automation Studio</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#work">Watch What We Do</a>
+      <a href="#process">Process</a>
+      <a href="#contact" class="nav-cta">Book Call</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> Built in India. Serving businesses globally.</div>
+        <h1>Stop losing leads. Let AI handle the first conversation.</h1>
+        <p class="hero-sub">We help service businesses automate lead capture, follow-ups, appointment booking, support queries, and CRM updates using practical AI workflows built for revenue, not hype.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Book a Free Strategy Call</a>
+          <a class="btn secondary" href="#work">Watch What We Do</a>
+        </div>
+        <div class="metric-row">
+          <div><strong>24/7</strong><span>Lead response</span></div>
+          <div><strong>&lt;1 min</strong><span>Follow-up time</span></div>
+          <div><strong>0</strong><span>Missed inquiries</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay">
+        <div class="workflow-card">
+          <div class="workflow-top">
+            <span class="live-dot"></span>
+            <span>Live AI workflow</span>
+          </div>
+          <div class="flow-stage active">
+            <span>01</span><b>New lead received</b><small>Website form / phone inquiry / DM</small>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-stage active delay-1">
+            <span>02</span><b>AI qualifies the prospect</b><small>Budget, need, urgency, location</small>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-stage active delay-2">
+            <span>03</span><b>Appointment booked</b><small>Calendar + confirmation sent</small>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-stage active delay-3">
+            <span>04</span><b>CRM updated</b><small>Clean notes for your team</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted-strip reveal">
+      <span>Automation stack we build with</span>
+      <b>n8n</b><b>OpenAI</b><b>Google Calendar</b><b>Sheets</b><b>CRM</b><b>Email</b><b>Voice AI</b>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span></span> What we automate</span>
+        <h2>Systems that turn missed conversations into booked opportunities.</h2>
+        <p>We build automation around the repetitive parts of sales, support, and operations so business owners can focus on closing and serving customers.</p>
+      </div>
+      <div class="grid services-grid">
+        <article class="service-card reveal"><i>📞</i><h3>AI Receptionist</h3><p>Answers initial inquiries, captures key details, and routes serious prospects to your team.</p></article>
+        <article class="service-card reveal"><i>⚡</i><h3>Lead Qualification</h3><p>Filters prospects by budget, urgency, location, requirement, and buying intent.</p></article>
+        <article class="service-card reveal"><i>🔁</i><h3>Missed Call Follow-up</h3><p>Automatically follows up when your team cannot respond immediately.</p></article>
+        <article class="service-card reveal"><i>📅</i><h3>Appointment Booking</h3><p>Checks availability, books calls, and sends reminders to reduce no-shows.</p></article>
+        <article class="service-card reveal"><i>🧠</i><h3>Customer Support AI</h3><p>Handles FAQs, service queries, and basic information requests without manual effort.</p></article>
+        <article class="service-card reveal"><i>📊</i><h3>CRM & Reporting</h3><p>Updates spreadsheets or CRMs with clean lead details and daily summaries.</p></article>
+      </div>
+    </section>
+
+    <section id="industries" class="section industries">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span></span> Industries we serve</span>
+        <h2>Built for service businesses where every lead matters.</h2>
+      </div>
+      <div class="industry-tabs reveal">
+        <button class="tab active" data-target="realestate">Real Estate</button>
+        <button class="tab" data-target="healthcare">Healthcare Clinics</button>
+        <button class="tab" data-target="homeservices">Home Services</button>
+      </div>
+      <div class="industry-panels reveal">
+        <div class="industry-panel active" id="realestate"><h3>Real Estate</h3><p>Capture property inquiries, qualify buyers, book viewings, follow up after missed calls, and update lead sheets automatically.</p></div>
+        <div class="industry-panel" id="healthcare"><h3>Healthcare & Dental Clinics</h3><p>Book appointments, answer clinic FAQs, handle missed patient calls, send reminders, and organize patient inquiries.</p></div>
+        <div class="industry-panel" id="homeservices"><h3>Home Services</h3><p>Collect service requests, prioritize urgent jobs, schedule visits, capture quote details, and send customer confirmations.</p></div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span></span> Watch what we do</span>
+        <h2>Interactive automation demos designed to show the real workflow.</h2>
+        <p>These demo modules simulate working AI automations. Replace them with your recorded demos later without changing the website structure.</p>
+      </div>
+      <div class="demo-controls reveal">
+        <button class="demo-filter active" data-filter="all">All</button>
+        <button class="demo-filter" data-filter="real-estate">Real Estate</button>
+        <button class="demo-filter" data-filter="healthcare">Healthcare</button>
+        <button class="demo-filter" data-filter="home-services">Home Services</button>
+      </div>
+      <div class="demo-grid" id="demoGrid"></div>
+    </section>
+
+    <section id="process" class="section process-section">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span></span> How we work</span>
+        <h2>A clear flow from problem to working automation.</h2>
+      </div>
+      <div class="process-timeline">
+        <div class="process-step reveal"><span>01</span><h3>Discovery</h3><p>We understand your current lead flow, missed opportunities, tools, and bottlenecks.</p></div>
+        <div class="process-step reveal"><span>02</span><h3>Workflow Design</h3><p>We map the exact automation journey before building anything.</p></div>
+        <div class="process-step reveal"><span>03</span><h3>Build & Test</h3><p>We create the workflow, test conversations, and improve the logic.</p></div>
+        <div class="process-step reveal"><span>04</span><h3>Deploy & Support</h3><p>We hand over the system with documentation and support after launch.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="about-card reveal">
+        <span class="eyebrow"><span></span> Why Broke But Building?</span>
+        <h2>Resourceful systems for businesses that want practical automation.</h2>
+        <p>We started Broke But Building with a simple belief: businesses do not need more complicated software. They need smarter systems that save time, respond faster, and help turn conversations into revenue.</p>
+        <div class="founders">
+          <div><b>Darshana Kulde</b><span>Co-founder & Business Automation Strategist</span></div>
+          <div><b>Omkar More</b><span>Co-founder & Automation Developer</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span></span> Quick answers</span>
+        <h2>Before you book a call.</h2>
+      </div>
+      <div class="faq-list reveal">
+        <details open><summary>Do you work with US businesses?</summary><p>Yes. We are headquartered in India and serve businesses globally, including US-based service businesses.</p></details>
+        <details><summary>Do we need to replace our current tools?</summary><p>Not always. We can often connect with tools you already use, such as calendars, spreadsheets, CRMs, email, and form systems.</p></details>
+        <details><summary>Can you build custom automations?</summary><p>Yes. Every workflow starts with your current process and business goal, then we design automation around that.</p></details>
+        <details><summary>How do we start?</summary><p>Book a free strategy call, share your current process, and we will suggest where automation can save time or increase conversions.</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-copy reveal">
+        <span class="eyebrow"><span></span> Start here</span>
+        <h2>Book a free strategy call.</h2>
+        <p>Tell us where leads are slipping through your current process. We will help you identify what can be automated first.</p>
+        <div class="contact-links">
+          <a href="mailto:brokebutbuilding2627@gmail.com">brokebutbuilding2627@gmail.com</a>
+          <a href="tel:+919284270592">+91 92842 70592</a>
+        </div>
+      </div>
+      <form class="contact-form reveal" id="contactForm">
+        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+        <label>Email<input type="email" name="email" placeholder="you@company.com" required></label>
+        <label>Business Type<select name="business"><option>Real Estate</option><option>Healthcare / Dental Clinic</option><option>Home Services</option><option>Other Service Business</option></select></label>
+        <label>What do you want to automate?<textarea name="message" rows="5" placeholder="Example: missed calls, lead follow-up, appointment booking..." required></textarea></label>
+        <button class="btn primary full" type="submit">Send Inquiry</button>
+        <p class="form-note">This opens your email app with the inquiry ready to send.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><span class="brand-mark">BBB</span><span><strong>Broke But Building</strong><small>AI Automation Studio</small></span></div>
+    <p>Headquartered in India. Serving businesses globally.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
